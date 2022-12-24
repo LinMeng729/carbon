@@ -1,0 +1,68 @@
+@media (min-width: 320px) {
+    body {
+        background-color: rgba(127, 183, 93, 0.7);
+    }
+    .space {
+        width: 100%;
+    }
+    h3 {
+        text-align: center;
+        color: white;
+    }
+    .search_text {
+        width: 200px;
+        border-radius: 10px;
+        float: left;
+    }
+    .search_text>input {
+        margin: 2px 20px 0 20px;
+        font-size: 30px;
+        padding: 2px 4px;
+    }
+    .search_pic {
+        height: 50px;
+        float: right;
+        margin: 2px 20px 0 20px;
+    }
+    h4 {
+        margin-top: 60px;
+        text-align: center;
+        color: white;
+    }
+    .sec {
+        float: left;
+    }
+    .itembox {
+        float: left;
+        background-color: rgba(217, 217, 217, 1);
+        width: 40%;
+        height: 250px;
+        margin: auto;
+        margin-left: 15px;
+        margin-bottom: 20px;
+        border-radius: 10px;
+    }
+    .item {
+        background-color: white;
+        width: 80%;
+        height: 140px;
+        margin: auto;
+        margin-top: 20px;
+        border-radius: 10px;
+    }
+    .item-pic {
+        width: 90%;
+        margin: auto;
+        margin-top: 30px;
+    }
+    .text-1,.text-2,.text-3 {
+        color: black;
+        text-align: center;
+    }
+}
+@media (min-width: 720px) {
+
+}
+@media (min-width: 1024px) {
+
+}
