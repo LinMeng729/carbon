@@ -1,0 +1,58 @@
+@media (min-width: 320px) {
+    body {
+        background-color: rgba(127, 183, 93, 0.7);
+    }
+    .space {
+        width: 100%;
+    }
+    h3 {
+        text-align: center;
+        color: white;
+    }
+    section {
+        background-color: white;
+        width: 80%;
+        margin: 20px 0 0 10%;
+    }
+    .item-pic {
+        width: 80%;
+        margin-left: 10%;
+    }
+    article {
+        background-color: rgba(217, 217, 217, 1);
+        width: 80%;
+        margin: -22px 0 0 10%;
+    }
+    h4 {
+        text-align: center;
+        color: black;
+    }
+    .point {
+        text-align: center;
+        color: white;
+    }
+    a {
+        text-decoration: none;
+    }
+    .button {
+        background: rgba(82, 132, 81, 0.79);
+        border-radius: 20px;
+        color: white;
+        margin: 20px 0 0px 38%;
+        padding: 5px 10px;
+        width: 80px;
+        font-size: 16px;
+        text-align: center;
+    }
+    .notice {
+        color: red;
+        text-align: center;
+        font-weight: bolder;
+    }
+}
+@media (min-width: 720px) {
+
+}
+@media (min-width: 1024px) {
+
+}

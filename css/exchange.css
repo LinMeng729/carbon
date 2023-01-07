@@ -1,10 +1,12 @@
 @media (min-width: 320px) {
+
     body {
         background-color: rgba(127, 183, 93, 0.7);
     }
     .space {
         width: 100%;
     }
+
     h3 {
         text-align: center;
         color: white;
@@ -15,14 +17,14 @@
         float: left;
     }
     .search_text>input {
-        margin: 2px 20px 0 20px;
-        font-size: 30px;
+        margin: 5px 20px 0 20px;
+        font-size: 27px;
         padding: 2px 4px;
     }
     .search_pic {
-        height: 50px;
+        height: 45px;
         float: right;
-        margin: 2px 20px 0 20px;
+        margin: 5px 20px 0 20px;
     }
     h4 {
         margin-top: 60px;
@@ -30,35 +32,39 @@
         color: white;
     }
     .sec {
-        float: left;
+        margin:20px 20px 10px 20px;
+        display: flex;
+        justify-content: center;   
     }
     .itembox {
-        float: left;
+        float:right;
         background-color: rgba(217, 217, 217, 1);
-        width: 40%;
-        height: 250px;
-        margin: auto;
-        margin-left: 15px;
-        margin-bottom: 20px;
+        width: 150px;
+        height: 190px;
+        margin:10px 10px 5px 10px;
         border-radius: 10px;
     }
     .item {
         background-color: white;
         width: 80%;
-        height: 140px;
-        margin: auto;
-        margin-top: 20px;
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        margin-left: 15px;
+        margin-top: 10px;
         border-radius: 10px;
     }
     .item-pic {
-        width: 90%;
-        margin: auto;
-        margin-top: 30px;
+        width: 100%;
+        height: 80%;
+        padding: 7px;
     }
-    .text-1,.text-2,.text-3 {
+    .text-2 , .text-3{
         color: black;
         text-align: center;
+        margin-top: 10px;
     }
+
 }
 @media (min-width: 720px) {
 

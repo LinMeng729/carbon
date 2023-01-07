@@ -1,0 +1,64 @@
+@media (min-width: 320px) {
+    body {
+        background-color: rgba(127, 183, 93, 0.7);
+    }
+    .space {
+        width: 100%;
+    }
+    h3 {
+        text-align: center;
+        color: white;
+    }
+    section {
+        margin-top: 30px;
+        border: solid 1px black;
+        width: 80%;
+        margin-left: 10%;
+        padding: 0;
+    }
+    .card {
+        width: 100%;
+        border: 1px solid black;
+        height: 35px;
+        background-color: white;
+        columns: 4;
+        column-width: 30px;
+    }
+    .bank {
+        margin: 0 0 0 0;
+        padding: 7px 10px;
+    }
+    .number {
+        margin: 20px 0 0 0;
+        padding: 7px 10px;
+    }
+    .out {
+        background: #D9D9D9;
+        border-radius: 25px;
+        margin: 40px 5% 0 0;
+        color: red;
+        padding: 2px 15px;
+        text-align: center;
+        width: 40px;
+    }
+    .newcredit {
+        background: #8AC170;
+        border: 1px solid #526152;
+        border-radius: 20px;
+        text-align: center;
+        align-items: center;
+        padding: 10px 20px;
+        margin: 20px 0 0 35%;
+        width: 100px;
+    }
+    a {
+        text-decoration: none;
+        color: black;
+    }
+}
+@media (min-width: 720px) {
+
+}
+@media (min-width: 1024px) {
+
+}

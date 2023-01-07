@@ -1,0 +1,88 @@
+@media (min-width: 320px) {
+    body {
+        background-color: rgba(127, 183, 93, 0.7);
+    }
+    .space {
+        width: 100%;
+    }
+    h3 {
+        text-align: center;
+        color: white;
+    }
+    .idcard {
+        color: white;
+        font-size: 20px;
+        margin-left: 15%;
+    }
+    .tex{
+        color: white;
+        font-size: 20px;
+        margin-left: 15%;
+    }
+    .verificationcode{
+        color: white;
+        font-size: 20px;
+        margin-left: 15%;
+        margin-top: 70px;
+    }
+    .signin>input {
+        margin: 2px 20px 0 20px;
+        font-size: 30px;
+        padding: 2px 4px;
+    }
+    #send {
+        background: rgba(44, 179, 82, 0.27);
+        border: 1px solid rgba(0, 0, 0, 0.15);
+        border-radius: 20px;
+        width: 120px;
+        font-size: 15px;
+        padding: 10px 0;
+        color: #FFFFFF;
+        text-align: center;
+        margin: 10px 0 0 42%;
+    }
+    #signin {
+        background: rgba(44, 179, 82, 0.27);
+        border: 1px solid rgba(0, 0, 0, 0.15);
+        border-radius: 20px;
+        width: 80px;
+        font-size: 15px;
+        padding: 10px 0;
+        color: #FFFFFF;
+        text-align: center;
+        margin: 10px 0 0 42%;
+    }
+    a {
+        text-decoration: none;
+    }
+    .sec {
+        float: left;
+        /* columns: 2; */
+        margin: 30px 0 0 30%;
+    }
+    .register {
+        background: rgba(44, 179, 82, 0.27);
+        border: 1px solid rgba(0, 0, 0, 0.15);
+        border-radius: 20px;
+        width: 80px;
+        font-size: 15px;
+        padding: 5px 0;
+        color: #FFFFFF;
+        text-align: center;
+        float: left;
+        margin: 30px 0 0 0;
+    }
+    .noaccount {
+        /* display:flex; 
+        justify-content:flex-start; */
+        margin: 30px 0 0 0%;
+        float: left;
+        color: #FFFFFF;
+    }
+}
+@media (min-width: 720px) {
+
+}
+@media (min-width: 1024px) {
+
+}
