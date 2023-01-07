@@ -9,12 +9,49 @@
         @import url(../css/all.css); 
         @import url(../css/exchangeitem.css);
     </style>
+    <script>
+        function myFunction01() {
+            x = document.getElementById("item");
+            x.innerHTML = "<img src='../photo/exchange/maserati.jpg'>";
+        }
+        function myFunction011() {
+            x = document.getElementById("item");
+            x.innerHTML = "<img src='../photo/exchange/mas1.png'>";
+        }
+    </script>
+    
 </head>
 <body>
     <header>
         <div class="head_circle"></div>
         <a href="index.html"><h1 class="topic">碳制郎</h1></a>
     </header>
+    <img src="../photo/footer/space.JPG" class="space">
+    <div class="head_space"></div>
+    <h3>服務內容</h3>
+    <hr>
+    <br>
+    <div class="itembox">
+        <div class="item" id="item">
+            <img src="../photo/exchange/maserati.jpg" class="item-pic" id="item-pic">
+        </div>
+        <div class="item-click">
+            <a herf onclick="myFunction01()">
+                <img src="../photo/exchange/maserati.jpg" class="pic">
+            </a>
+            <a herf onclick="myFunction011()">
+                <img src="../photo/exchange/mas1.png" class="pic">
+            </a>
+        </div>
+    </div>
+    <section>
+        <p class="word">服務說明：</p>
+        <p>跑車體驗啊啊啊啊啊啊啊啊啊</p>
+    </section>
+    <a href="exchangecheck.html">
+        <div class="exchange">兌換</div>
+    </a>
+    <img src="../photo/footer/space.JPG" >
     <footer>
         <a href="exchange.html"><img src="../photo/footer/exchange.png" class="foot_bottom"></a>
         <a href="rank.html"><img src="../photo/footer/rank.png" class="foot_bottom"></a>

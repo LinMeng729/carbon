@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>會員專區</title>
+    <title>新增信用卡</title>
     <style>
         @import url(../css/all.css); 
-        @import url(../css/member.css);
+        @import url(../css/creditnew.css);
     </style>
 </head>
 <body>
@@ -16,17 +16,22 @@
         <a href="index.html"><h1 class="topic">碳制郎</h1></a>
     </header>
     <img src="../photo/footer/space.JPG" class="space">
-    <h3 id="name">你好&nbsp;&nbsp;王小明</h3>
-    <input type="submit" value="登出" name="sbtn" class="logout" />
-    <br><br><br><br>
-    <h3>您的總碳排：50kg</h3>
-    <h3>您的總碳點：100點</h3>
-    <a href="carbon.html"><div class="bottom">碳點存摺</div></a>
-    <a href="memchange.html"><div class="bottom">會員資料修改</div></a>
-    <a href="exchangenote.html"><div class="bottom">兌換紀錄</div></a>
-    <a href="credit.html"><div class="bottom">信用卡管理</div></a>
-    <a href="facebook.html"><div class="bottom">Facebook綁定</div></a>
-    <img src="../photo/footer/space.JPG">
+    <h3>新增卡片</h3>
+    <hr>
+    <div class="newcard">
+        <form action="" method="GET">
+            <label class="card">卡&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;號&nbsp;</label>
+            <input type="text" name="num"><br><br>
+            <label class="card">到&nbsp;&nbsp;&nbsp;&nbsp;期&nbsp;&nbsp;&nbsp;&nbsp;日&nbsp;</label>
+            <input type="text" name="date"><br><br>
+            <label class="card">安&nbsp;&nbsp;&nbsp;&nbsp;全&nbsp;&nbsp;&nbsp;&nbsp;碼&nbsp;</label>
+            <input type="text" name="number"><br><br>
+            <label class="card">持卡人姓名&nbsp;</label>
+            <input type="text" name="name"><br><br>
+            <input type="submit" value="確認" id="send">
+        </form>
+    </div>
+    <img src="../photo/footer/space.JPG" >
     <footer>
         <a href="exchange.html"><img src="../photo/footer/exchange.png" class="foot_bottom"></a>
         <a href="rank.html"><img src="../photo/footer/rank.png" class="foot_bottom"></a>

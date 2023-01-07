@@ -4,22 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>模板</title>
+    <title>兌換專區</title>
     <style>
         @import url(../css/all.css); 
-        /* 這個是模板的CSS，每個頁面都要記得import */
-        /* 不要加東西在all.css，自己再建一個CSS放那一頁要用的CSS */
-        /* 每一個CSS都要根據不同裝置做出改變，
-           我是把大部分東西放在320px，
-           要做改變的再在其他大小下寫程式碼改，
-           不懂就看all.css，或其他我做好的。
-           @media (min-width: 320px) {}
-           @media (min-width: 720px) {}
-           @media (min-width: 1024px) {} */
-         /* 記得開新檔，在把程式碼複製過去就好
-            或著直接另存新檔也可
-            總之別改模板！！！！！ */
-        /* 註解看完可刪 */
+        @import url(../css/exchangecheck.css);
     </style>
 </head>
 <body>
@@ -27,6 +15,27 @@
         <div class="head_circle"></div>
         <a href="index.html"><h1 class="topic">碳制郎</h1></a>
     </header>
+    <img src="../photo/footer/space.JPG" class="space">
+    <div class="head_space"></div>
+    <h3>兌換專區</h3>
+    <hr>
+    <section>
+        <img src="../photo/exchange/mas1.png" class="item-pic">
+    </section>
+    <article>
+        <h4>跑車體驗</h4>
+    </article>
+    <div class="point">
+        <p>消耗點數：50點</p>
+        <p>使用後點數：250點</p>
+    </div>
+    <a href="checknumber.html"><div class="button">確認兌換</div></a>
+    <a href="exchangeitem.html"><div class="button">取消</div></a>
+    <p class="notice">
+        警告<br>
+        按下確認鍵後，驗證碼只可存在半小時，請謹慎兌換。
+    </p>
+    <img src="../photo/footer/space.JPG" >
     <footer>
         <a href="exchange.html"><img src="../photo/footer/exchange.png" class="foot_bottom"></a>
         <a href="rank.html"><img src="../photo/footer/rank.png" class="foot_bottom"></a>
@@ -36,4 +45,3 @@
     </footer>
 </body>
 </html>
-

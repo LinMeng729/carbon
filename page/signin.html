@@ -4,29 +4,37 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>會員專區</title>
+    <title>登入</title>
     <style>
         @import url(../css/all.css); 
-        @import url(../css/member.css);
+        @import url(../css/signin.css);
     </style>
 </head>
 <body>
     <header>
         <div class="head_circle"></div>
-        <a href="index.html"><h1 class="topic">碳制郎</h1></a>
+        <h1 class="topic">會員專區</h1>
     </header>
     <img src="../photo/footer/space.JPG" class="space">
-    <h3 id="name">你好&nbsp;&nbsp;王小明</h3>
-    <input type="submit" value="登出" name="sbtn" class="logout" />
-    <br><br><br><br>
-    <h3>您的總碳排：50kg</h3>
-    <h3>您的總碳點：100點</h3>
-    <a href="carbon.html"><div class="bottom">碳點存摺</div></a>
-    <a href="memchange.html"><div class="bottom">會員資料修改</div></a>
-    <a href="exchangenote.html"><div class="bottom">兌換紀錄</div></a>
-    <a href="credit.html"><div class="bottom">信用卡管理</div></a>
-    <a href="facebook.html"><div class="bottom">Facebook綁定</div></a>
-    <img src="../photo/footer/space.JPG">
+    <div class="head_space"></div>
+    <h3>登入</h3>
+    <hr>
+    <div  class="signin">
+        <form action="" method="GET">
+            <label style="margin-top: 40px;" class="idcard">身分證字號&nbsp;：</label>
+            <input type="text" name="account"><br><br>
+            <label class="tex">&nbsp&nbsp&nbsp&nbsp&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;密碼&nbsp：</label>
+            <input type="text" name="password"><br><br>
+            <button id="signin">登入</button> 
+        </form>
+        <br>
+        <div class="sec">
+            <div class="noaccount">還沒有帳號？</div>
+            <a href="register.html"><div class="register">註冊</div></a>
+        </div>
+    </div>
+    <br><br><br>
+    <img src="../photo/footer/space.JPG" >
     <footer>
         <a href="exchange.html"><img src="../photo/footer/exchange.png" class="foot_bottom"></a>
         <a href="rank.html"><img src="../photo/footer/rank.png" class="foot_bottom"></a>
